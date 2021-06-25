@@ -5,10 +5,10 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"github.com/rindibudiaramdhan/go-db-boilerplate/api/auth"
-	"github.com/rindibudiaramdhan/go-db-boilerplate/api/models"
-	"github.com/rindibudiaramdhan/go-db-boilerplate/api/responses"
-	"github.com/rindibudiaramdhan/go-db-boilerplate/api/utils/formaterror"
+	"github.com/victorsteven/fullstack/api/auth"
+	"github.com/victorsteven/fullstack/api/models"
+	"github.com/victorsteven/fullstack/api/responses"
+	"github.com/victorsteven/fullstack/api/utils/formaterror"
 	"golang.org/x/crypto/bcrypt"
 )
 
